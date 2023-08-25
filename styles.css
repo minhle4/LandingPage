@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.header {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-content: center;
+    gap: 800px;
+    background-color: #fadadd ;
+}
+
+.logo {
+    font-size: 24px;
+    color: palevioletred;
+    text-decoration: none;
+}
