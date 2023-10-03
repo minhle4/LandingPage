@@ -7,7 +7,7 @@ body {
     padding: 0;
 }
 
-nav {
+.common-look {
     display: flex;
     justify-content: space-between;
     align-content: center;
