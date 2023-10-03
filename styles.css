@@ -1,28 +1,35 @@
-* {
+body {
+    display: flex;
     box-sizing: border-box;
+    flex-direction: column;
+    flex: 1;
     margin: 0;
     padding: 0;
 }
 
-body {
+nav {
     display: flex;
-    flex: 1;
-    flex-direction: column;
     justify-content: space-between;
     align-content: center;
-}
-
-.header {
-    display: flex;
-    flex: 1;
-    justify-content: space-around;
-    align-content: center;
-    gap: 800px;
-    background-color: #fadadd ;
+    align-items: center;
+    background-color: #fadadd;
+    padding: 0px 30px;
 }
 
 .logo {
     font-size: 24px;
     color: palevioletred;
     text-decoration: none;
+}
+
+ul {
+    display: flex;
+    font-size: 18px;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.links {
+    text-decoration: none;
+    color: palevioletred;
 }
