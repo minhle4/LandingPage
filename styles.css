@@ -14,9 +14,14 @@ nav {
     align-items: center;
 }
 
-.common-look {
+.section-1 {
     background-color: #fadadd;
-    padding: 0px 30px;
+    padding: 10px 188px 20px 188px;
+}
+
+.section-2 {
+    background-color: #fadadd;
+    padding: 10px 188px 20px 188px;
 }
 
 h1 {
