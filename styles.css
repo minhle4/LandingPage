@@ -20,16 +20,32 @@ nav {
 }
 
 .section-2 {
+    display: flex;
+    flex: auto;
     background-color: #fadadd;
     padding: 10px 188px 20px 188px;
 }
 
+.text-img-box {
+    display: flex;
+    flex: auto;
+}
+
 h1 {
     margin: 0;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.bio {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgba(0, 0, 0, 0.849);
 }
 
 .logo {
-    font-size: 24px;
+    font-size: 30px;
     color: palevioletred;
     text-decoration: none;
 }
@@ -44,4 +60,25 @@ ul {
 .links {
     text-decoration: none;
     color: palevioletred;
+}
+
+.intro-img {
+    display: flex;
+    justify-content: flex-end;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.register-button {
+    font-size: 12px;
+    padding: 0.5em 1em;
+    margin: 0.25em;
+    border-radius: 1em;
+    border: none;
+    outline: none;
+    background: #e65252;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
