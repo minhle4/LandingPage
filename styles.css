@@ -5,6 +5,7 @@ body {
     flex: 1;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;;
 }
 
 nav {
@@ -16,14 +17,22 @@ nav {
 
 .section-1 {
     background-color: #fadadd;
-    padding: 10px 188px 20px 188px;
+    padding: 10px 350px 20px 350px;
 }
 
 .section-2 {
     display: flex;
     flex: auto;
     background-color: #fadadd;
-    padding: 10px 188px 20px 188px;
+    padding: 10px 350px 20px 350px;
+}
+
+.section-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    padding: 10px 350px 20px 350px;
 }
 
 .text-img-box {
@@ -31,10 +40,28 @@ nav {
     flex: auto;
 }
 
+.text-box {
+    margin: 10px ;
+}
+
 h1 {
-    margin: 0;
-    font-weight: 900;
-    font-size: 25px;
+    margin-top: 0px;
+    font-size: 48px;
+    font-weight: bold;
+
+}
+
+h2 {
+
+    margin: 0px;
+    padding: 0px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+p {
+    margin-top: 0x;
+    font-size: 18px;
 }
 
 .bio {
@@ -81,4 +108,53 @@ ul {
     cursor: pointer;
     text-decoration: none;
     color: black;
+}
+
+.review-section {
+    display: flex;
+    flex: 1;
+    padding: 0px;
+    justify-content: center;
+    align-content:center;
+    background: white;
+    margin: 10px 350px 20px 350px;
+}
+
+.reviews {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.imgbox {
+    display: flex;
+    justify-content: space-around;
+    border: #e65252 3px solid;
+    border-radius: 10%;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
+
+.profile {
+    display: flex;
+    width: 150px;
+    border-radius: 10%;
+    object-fit: cover;
+}
+
+.box-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 25px;
+}
+
+.review-text .bio {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
 }
