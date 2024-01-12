@@ -35,6 +35,14 @@ nav {
     padding: 10px 350px 20px 350px;
 }
 
+.section-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ebe5e5;
+    padding: 10px 350px 20px 350px;
+}
+
 .text-img-box {
     display: flex;
     flex: auto;
@@ -157,4 +165,24 @@ ul {
     flex: 1;
     justify-content: center;
     align-items: center;
+}
+
+.quote-box {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: lighter;
+}
+
+.name {
+    display: flex;
+    flex: auto;
+    justify-content: flex-end;
+    font-weight: bold;
+    padding-right: 30px;
 }
