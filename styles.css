@@ -43,6 +43,16 @@ nav {
     padding: 10px 350px 20px 350px;
 }
 
+.section-5 {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 10px 350px 20px 350px;
+}
+
 .text-img-box {
     display: flex;
     flex: auto;
@@ -68,7 +78,7 @@ h2 {
 }
 
 p {
-    margin-top: 0x;
+    margin: 5px;
     font-size: 18px;
 }
 
@@ -185,4 +195,45 @@ ul {
     justify-content: flex-end;
     font-weight: bold;
     padding-right: 30px;
+}
+
+.action-box {
+    display:flex;
+    justify-content: center;
+    border: #e65252 solid 2px;
+    border-radius: 8px;
+    background: #e65252;
+    padding: 25px 160px;
+    gap: 100px;
+}
+
+.button-separator {
+    margin: 0px 60px;
+}
+
+.bold {
+    font-style: italic;
+    font-weight: 900;
+    font-size: 25px;
+    color: white;
+}
+
+.font-color {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.sign-up-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    border: white solid 2px;
+    border-radius: 15px;
+    padding: 0px 25px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
 }
